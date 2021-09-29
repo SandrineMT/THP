@@ -1,0 +1,114 @@
+html, body 
+{
+    height: 100%;
+    margin: 0px;
+}
+#blocdepage
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.header
+{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+.header *
+{
+    margin-right: 30px;
+    margin-top: 15px;
+}
+.liennoir
+{
+    color: black;
+    text-decoration: unset;
+}
+.bouton
+{
+    color: white;
+    text-decoration: unset;
+    background-color: blue;
+    border-radius: 5px;
+}
+.applications
+{
+    width: 15px;
+    height: 15px;
+}
+.logo img
+{
+    width: auto;
+    height: 92px;
+}
+
+.logo
+{    
+    text-align: center;
+    margin-top: 200px;
+}
+.barrederecherche
+{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.recherche
+{
+    width:65%;
+    height: 50px;
+    margin: auto;
+    border: 1px grey solid;
+    border-radius: 20px;
+}
+.click 
+{
+    text-align: center;
+}
+.click button
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.espacevide
+{
+    margin-top: auto;
+ 
+}
+.FR
+{
+    font-size: 17px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 15px;
+    border-bottom: grey 1px solid;
+    
+}
+.apropos a
+{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: unset;
+    color: grey;
+}
+.apropos
+{
+    text-align: center;
+}
+.ligne1
+{
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.ligne2
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.ligne3
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
